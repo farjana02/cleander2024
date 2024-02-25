@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+
+}
+body{
+    background-image: url('/image/annie-spratt-wuc-KEIBrdE-unsplash.jpg');
+    background-repeat: no-repeat;
+}
+nav a{
+    color:white;
+    text-decoration: none;
+    font-size: 45px;
+    margin:  30px 20px;
+    
+}
+.size{
+    margin: 40px;
+}
+.from-login{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+
+}
+.from-login input{
+    margin-top: 15px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.from-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    /* border:1px solid sienna; */
+}
+.login-title{
+    color:rgb(142, 159, 12);
+    font-size:45px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
